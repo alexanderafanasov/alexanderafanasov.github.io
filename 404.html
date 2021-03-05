@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167624740-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167624740-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexander Afanasov - Designer">
+  <meta name="author" content="Alexander Afanasov">
+
+  <!--  Open Graph | Facebook  -->
+  <meta property="og:title" content="Alexander Afanasov - Designer">
+  <meta property="og:description" content="Alexander Afanasov is a designer currently based in Moscow.">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="315">
+  <meta property="og:type" content="website">
+
+  <!--  Favicon  -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
+
+  <!-- Preload Web Fonts -->
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Suprapower-Heavy.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/39D752_38_0.woff" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/IBMPlexMono-Regular.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/IBMPlexMono-Bold.woff2" crossorigin>
+
+  <title>Alexander Afanasov - Portfolio</title>
+
+  <!--  external style sheets  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--  external scripts  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="assets/js/pace/pace.js"></script>
+
+  <!--  my style sheets  -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/styles-responsive-index.css" rel="stylesheet">
+
+  <!--  my scripts  -->
+  <script src="assets/js/main.js"></script>
+
+</head>
+
+<body>
+
+  <div class="lihgtmode-overlay">
+
+    <span class="disabledjavascript">JavaScript is disabled in your web browser. <br> Please enable JavaScript and
+      reload
+      the page. <br> To enable it follow <a href="http://enable-javascript.com/" target="_blank"
+        rel="noopener noreferrer">THIS</a>. <br> If you enable
+      JavaScript,
+      this text will change.
+    </span>
+
+    <nav class="nav-bar">
+      <input type="checkbox" id="nav-bar" class="hidden">
+
+      <label for="nav-bar" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+
+      <div class="logo">
+        <a onclick="transitionToPage('https://afanasov.design')">ALEXANDER</a>
+      </div>
+
+      <div class="nav-wrapper hover-effect">
+        <ul>
+          <li class="nav-item"><a onclick="transitionToPage('about')" data-hover="About">About</a></li>
+          <li class="nav-item"><a target="_blank"
+              href="https://www.dropbox.com/s/p18r5vnqz9v6viz/Alexander_Afanasov_Resume.pdf?dl=0" rel="noopener"
+              data-hover="Resume">Résumé</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid FOF-body">
+      <div class="row">
+
+        <div class="col-sm-12">
+          <h1 class="animate__animated animate__bounce animate__delay-1s index-heading">404 - File Not Found</h1>
+          <p class="fof-description">This page could not be found.<br> Continue to the <a
+              onclick="transitionToPage('https://alexanderafanasov.github.io')" class="link">Homepage.</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="switch">
+      <input class="switch-input" type="checkbox" id="themeSwitch">
+      <label aria-hidden="true" class="switch-label" for="themeSwitch">On</label>
+      <div aria-hidden="true" class="switch-marker">
+        <div class="switch-icon"></div>
+      </div>
+      <span class="Tooltip" role="tooltip" position="bottom-end">Switch theme</span>
+    </div>
+
+    <div class="back-to-top"><svg class="bi bi-chevron-up" width="3em" height="3em" viewBox="0 0 16 16"
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M7.646 4.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L8 5.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"
+          clip-rule="evenodd" />
+      </svg></div>
+
+    <div class="contact-footer">
+
+      <h3 class="footer-description">Copyright © 2021 Alexander Afanasov. All Rights Reserved.</h3>
+
+      <div class="clock"><span class="city">Moscow </span><span id="clock-hours"></span><span
+          class="clock-dots">:</span><span id="clock-minutes"></span></div>
+    </div>
+
+    <div id="cursor"></div>
+
+  </div>
+
+</body>
+
+</html>

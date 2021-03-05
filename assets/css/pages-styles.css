@@ -1,0 +1,462 @@
+.case-study-section-container.case-study-center {
+  text-align: center;
+}
+
+.case-study-section-info-container,
+.case-study-section-info-container-image-below {
+  max-width: 1600px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  /*margin: auto;*/
+}
+
+.case-study-section-info-container-image-below {
+  padding-bottom: 0;
+}
+
+.case-study-section-container.alt-1 {
+  background-color: #111111;
+}
+
+.case-study-section-container.alt-2 {
+  background-color: #fd0202;
+}
+
+.case-study-section-container.alt-3 {
+  background-color: #bfbfbf;
+}
+
+.case-study-small-title {
+  color: #666666;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.case-study-small-text {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.case-study-small-header {
+  font-weight: 700;
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.case-study-large-header {
+  font-weight: 800;
+  font-size: 72px;
+  color: var(--color-primary);
+  padding-bottom: 100px;
+}
+
+.case-study-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.case-study-list {
+  font-size: 18px;
+  line-height: 30px;
+  color: #101010;
+  padding: 16px;
+}
+
+.case-study-list li {
+  padding-bottom: 16px;
+}
+
+a.case-study-paragraph-link {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*  CARDS AT BOTTOM  */
+.case-study-card-container {
+  padding: 0 16px 0 0;
+}
+
+.case-study-card {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px;
+  margin-bottom: 24px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.case-study-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+  /** TODO */
+  top: -10px;
+}
+
+.case-study-card .design-date {
+  padding-top: 16px;
+}
+
+.case-study-large-image {
+  padding: 24px;
+}
+
+h1.case-study-large-header.extra-bottom-margin {
+  padding-bottom: 32px;
+}
+
+h1.case-study-large-header.alt-1 {
+  /*color: #000000;*/
+}
+
+p.case-study-paragraph-small-less-wide {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.case-study-paragraph-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #101010;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+
+.large-spacing {
+  padding: 32px;
+}
+
+.paragraph-spacing {
+  padding: 8px;
+}
+
+div.case-study-wider-container {
+  max-width: 780px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 300px;
+  margin: auto;
+}
+
+/*  UNIQUE  */
+.text-image-card {
+  padding: 24px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  max-width: 550px;
+  margin: 20px 0;
+}
+
+.text-image-card-grid {
+  padding: 24px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  max-width: 350px;
+  margin: 8px 8px;
+  display: inline-block;
+}
+
+.text-image-container {
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.text-image-card-image {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+
+.text-image-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 8px;
+}
+
+.text-image-card-paragraph,
+.text-image-card-paragraph-title,
+.text-image-card-paragraph-small {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.text-image-card-paragraph-small {
+  font-size: 14px;
+}
+
+.text-image-card-paragraph-title {
+  margin-top: 24px;
+}
+
+img.text-image-non-card-image {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+}
+
+.text-image-non-card-container {
+  display: inline-block;
+}
+
+.text-image-non-card {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.text-image-non-card-image {
+  height: 64px;
+  width: 64px;
+}
+
+.text-image-non-card-text.text-bold {
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.text-image-non-card-text {
+  font-size: 16px;
+  padding-left: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.gallery-content.alt-1 .flickity-page-dots .dot {
+  opacity: 0.25;
+  background: #fd0202 !important;
+}
+
+.gallery-content.alt-1 .flickity-page-dots .dot.is-selected {
+  opacity: 1;
+  background: #fd0202 !important;
+}
+
+@media only screen and (max-width : 1000px) {
+  .case-study-card-container {
+    width: 100%;
+  }
+
+  img.img-responsive.project-image {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: baseline;
+    margin-right: 16px;
+  }
+
+  .project-information {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+
+  .case-study-card .design-date {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width : 870px) {
+
+  .case-study-section-info-container.case-study-wider-container {
+    padding: 100px 32px;
+    max-width: none;
+  }
+
+  .case-study-section-info-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .case-study-section-info-container-image-below {
+    padding-top: 64px;
+  }
+
+  .project-information {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (max-width : 776px) {
+  img.img-responsive.project-image {
+    display: block;
+    max-width: 100%;
+    margin-right: 16px;
+  }
+
+  .project-information {
+    display: block;
+    width: 100%;
+  }
+
+  .case-study-card .design-date {
+    padding-top: 14px;
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+
+  h1.design-description {
+    padding-bottom: 8px;
+  }
+
+  h1.case-study-large-header {
+    font-size: 48px;
+    /*margin: 20px 20px;*/
+    padding-bottom: 20px;
+  }
+
+  button.design-read-study-btn {
+    display: block;
+  }
+
+  .case-study-section-info-container {
+    padding: 64px 48px;
+    max-width: none;
+  }
+
+  .case-study-section-info-container-image-below {
+    padding: 0 48px;
+    padding-top: 64px;
+    max-width: none;
+  }
+
+  p.case-study-paragraph-small-less-wide,
+  p.case-study-paragraph-title {
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width : 576px) {
+
+  .case-study-section-info-container.case-study-wider-container,
+  .case-study-section-info-container,
+  .case-study-section-info-container-image-below {
+    padding: 80px 16px;
+  }
+
+  .case-study-section-info-container-image-below {
+    padding-bottom: 0;
+  }
+
+  h3.case-study-small-header {
+    font-size: 12px;
+    margin: 16px 0;
+  }
+
+  h1.case-study-large-header {
+    font-size: 36px;
+  }
+
+  p.case-study-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .case-study-list {
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
+    padding: 16px;
+  }
+
+  .case-study-list li {
+    padding-bottom: 8px;
+  }
+
+  .paragraph-spacing {
+    padding: 4px;
+  }
+
+  .large-spacing {
+    padding: 12px;
+  }
+
+  .text-image-container {
+    padding-bottom: 8px;
+  }
+
+  .text-image-card {
+    padding: 16px;
+    margin: 12px 0;
+  }
+
+  img.text-image-card-image {
+    width: 24px;
+    height: 24px;
+  }
+
+  span.text-image-card-title,
+  p.case-study-paragraph-title {
+    font-size: 16px;
+  }
+
+  .text-image-card-paragraph,
+  p.case-study-paragraph-small-less-wide,
+  h3.text-image-non-card-text.text-bold,
+  h3.text-image-non-card-text {
+    font-size: 14px;
+  }
+
+  .case-study-large-image {
+    padding: 8px;
+  }
+
+  .footer-description {
+    margin-top: 16px;
+    padding-bottom: 24px;
+    padding: 100px 8px;
+  }
+
+  h1.footer-header {
+    font-size: 16px;
+  }
+
+  h3.footer-description {
+    margin: 12px 16px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  .footer-description {
+    margin-top: 16px;
+    padding-bottom: 24px;
+    padding: 100px 8px;
+  }
+
+  h1.footer-header {
+    font-size: 16px;
+  }
+
+  h3.footer-description {
+    margin: 12px 16px;
+    font-size: 14px;
+  }
+}
+
+/* ************* GRID VIEW IN TCR ********* */
+
+@media only screen and (max-width : 820px) {
+  .text-image-card-grid {
+    display: block;
+    max-width: none;
+  }
+
+  .text-image-card-grid .text-image-container span.text-image-card-title {
+    font-size: 20px;
+  }
+}

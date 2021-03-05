@@ -1,0 +1,299 @@
+@media only screen and (max-width : 987px) {
+
+  .design-date {
+    padding-top: 14px;
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+
+  button.design-read-study-btn {
+    display: block;
+    margin-top: 20px;
+  }
+
+  h1.design-description {
+    margin-bottom: 12px;
+  }
+
+  .container-fluid.main-body {
+    z-index: 1;
+    padding-top: 100px;
+  }
+
+}
+
+@media only screen and (max-width : 834px) {
+
+  .row.design-row {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 24p;
+    margin-bottom: 24px;
+  }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+  .intro-wrapper {
+    padding: 48px 32px;
+    padding-bottom: 100px;
+  }
+
+  .project-section-wrapper {
+    padding: 24px 32px;
+  }
+
+  h1.index-heading {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  p.index-description {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .about-me-section {
+    padding: 88px 32px 32px;
+    max-width: none;
+  }
+
+  .col-md-4.art-project {
+    border: none;
+    border-right: 8px solid white;
+    display: inline-block;
+    max-width: 220px;
+  }
+
+  .container-fluid.main-body {
+    z-index: 1;
+    padding-top: 100px;
+  }
+
+  .row.design-row {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .scroll-down {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+}
+
+@media only screen and (max-width : 576px) {
+
+  .intro-wrapper,
+  .project-section-wrapper,
+  .about-me-section {
+    padding: 16px;
+    padding-bottom: 100px;
+  }
+
+  img.profile-image {
+    width: 360px;
+    height: 460px;
+  }
+
+  .index-heading {
+    font-size: 24px;
+  }
+
+  .project-information .tag_case_study {
+    margin-right: 8px;
+  }
+
+  .footer-description {
+    margin-top: 16px;
+    padding-bottom: 24px;
+    padding: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .clock {
+    right: 16px;
+  }
+
+  h1.footer-header {
+    font-size: 16px;
+  }
+
+  h3.footer-description {
+    margin: 12px 16px;
+    font-size: 13px;
+  }
+
+  .col-md-4.art-project {
+    border-right: none;
+    border-bottom: 8px solid white;
+    display: block;
+    max-width: none;
+  }
+
+  .container-fluid.main-body {
+    z-index: 1;
+    padding-top: 100px;
+  }
+
+  .about-me-section {
+    padding-top: 100px;
+  }
+
+  .about-center-placeholder {
+    margin-top: 0px;
+  }
+
+  .btn-visit {
+    border: 2px solid var(--color-primary);
+    border-radius: 100px;
+    padding: 16px 32px;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .flickity-page-dots .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 3px;
+  }
+
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    width: 16px;
+  }
+
+  .logo {
+    margin-left: 16px;
+  }
+
+  .nav-btn {
+    right: 16px;
+  }
+
+  .back-to-top {
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+
+  .row.design-row {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .switch {
+    left: 16px;
+    bottom: 40px !important;
+  }
+
+  .scroll-down {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+}
+
+@media only screen and (max-width : 414px) {
+
+  .project-information .tag_case_study {
+    margin-right: 4px;
+    padding: 4px;
+  }
+
+  h1.design-title {
+    font-size: 24px;
+  }
+
+  p.index-description {
+    font-size: 24px;
+  }
+
+  h1.index-heading {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .description-main {
+    margin: 0 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-me-section {
+    padding-top: 100px;
+  }
+
+  .container-fluid.FOF-body h1 {
+    font-size: 20px;
+  }
+
+  .container-fluid.FOF-body p {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width : 360px) {
+
+  .intro-wrapper,
+  .project-section-wrapper,
+  .about-me-section {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+
+  .project-information .tag_case_study {
+    margin-right: 4px;
+    padding: 4px;
+  }
+
+  h1.design-title {
+    font-size: 24px;
+  }
+
+  p.index-description {
+    font-size: 24px;
+  }
+
+  h1.index-heading {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .description-main {
+    margin: 0 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-me-section {
+    padding-top: 100px;
+  }
+
+  .row.design-row {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16x;
+    margin-bottom: 16px;
+  }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+  .description-main {
+    margin: 0 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
