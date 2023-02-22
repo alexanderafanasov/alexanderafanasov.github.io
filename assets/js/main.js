@@ -361,35 +361,57 @@ $(document).ready(function () {
     });
 });
 
-//Clock Moscow
-$(document).ready(function () {
-    var spanHours = document.getElementById('clock-hours');
-    var spanMinutes = document.getElementById('clock-minutes');
+var toggle = true;
+setInterval(function () {
+    var d = new Date().toLocaleTimeString('en-US', {
+        timeZone: 'Europe/Moscow',
+        hour12: true,
+        hour: 'numeric',
+        minute: 'numeric'
+    });
+    var parts = d.split(":");
+    $('#hours').text(parts[0]);
+    $('#minutes').text(parts[1]);
+    $("#colon").css({
+        visibility: toggle ? "visible" : "hidden"
+    });
+    toggle = !toggle;
+}, 1000);
 
-    const optionsHours = {
-        timeZone: "Europe/Moscow",
-        hour12: false,
-        hour: "2-digit",
-    }
+var toggle2 = true;
+setInterval(function () {
+    var d2 = new Date().toLocaleTimeString('en-US', {
+        timeZone: 'America/New_York',
+        hour12: true,
+        hour: 'numeric',
+        minute: 'numeric'
+    });
+    var parts = d2.split(":");
+    $('#hours2').text(parts[0]);
+    $('#minutes2').text(parts[1]);
+    $("#colon2").css({
+        visibility: toggle2 ? "visible" : "hidden"
+    });
+    toggle2 = !toggle2;
+}, 1000);
 
-    const optionsMinutes = {
-        timeZone: "Europe/Moscow",
-        hour12: false,
-        minute: "2-digit"
-    }
+var toggle3 = true;
+setInterval(function () {
+    var d3 = new Date().toLocaleTimeString('en-US', {
+        timeZone: 'Europe/London',
+        hour12: true,
+        hour: 'numeric',
+        minute: 'numeric'
+    });
+    var parts = d3.split(":");
+    $('#hours3').text(parts[0]);
+    $('#minutes3').text(parts[1]);
+    $("#colon3").css({
+        visibility: toggle3 ? "visible" : "hidden"
+    });
+    toggle3 = !toggle3;
+}, 1000);
 
-    function timeHours() {
-        spanHours.textContent = new Date().toLocaleTimeString("en-US", optionsHours);
-    }
-
-    setInterval(timeHours, 1000);
-
-    function timeMinutes() {
-        spanMinutes.textContent = new Date().toLocaleTimeString("en-US", optionsMinutes);
-    }
-
-    setInterval(timeMinutes, 1000);
-});
 
 /*// Change page title
 $(document).ready(function () {

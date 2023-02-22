@@ -83,7 +83,7 @@ h1.abs {
   --color-white: hsl(0, 0%, 100%);
   --color-bg: hsl(320, 0%, 0%);
   --color-bg-glass-rgba: 255, 255, 255, .5;
-  --switch-label: hsl(257, 83%, 63%);
+  --switch-label: hsl(189, 23%, 43%);
   /*--switch-label: hsl(214, 96%, 59%);*/
   --footer: hsl(320, 0%, 7%);
   --btn-visit: hsl(0, 0%, 100%);
@@ -229,6 +229,18 @@ h1.abs {
   --switch-padding: 3px;
   /* animation */
   --switch-animation-duration: 0.2s;
+}
+
+#iframe_soundcloud {
+  margin-top: 100px;
+}
+
+.swirl {
+  position: absolute;
+  color: #fd0202;
+  width: 50%;
+  height: 100%;
+  top: -20%;
 }
 
 .switch {
@@ -886,7 +898,18 @@ h1.abs {
 }
 
 .nav-bar {
-  z-index: 999;
+  /*z-index: 999;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.6) !important;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;*/
 
   transition: ease all 0.3s !important;
   -moz-transition: ease all 0.3s !important;
@@ -1866,11 +1889,43 @@ h1.bold {
   animation: pulse-btp-btn 1s infinite;
 }
 
-.clock {
+.separator {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.clock1 {
   position: absolute;
   text-align: right;
   right: 50px;
   top: 95px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--color-primary);
+}
+
+.clock2 {
+  position: absolute;
+  text-align: right;
+  right: 50px;
+  top: 155px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--color-primary);
+}
+
+.clock3 {
+  position: absolute;
+  text-align: right;
+  right: 50px;
+  top: 215px;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;

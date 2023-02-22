@@ -24,6 +24,27 @@
 
 @media only screen and (max-width : 834px) {
 
+  .clock1 {
+    margin-top: 0px;
+    right: 16px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock2 {
+    margin-top: 0px;
+    right: 16px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock3 {
+    margin-top: 0px;
+    right: 16px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
   .row.design-row {
     padding-right: 32px;
     padding-left: 32px;
@@ -34,6 +55,31 @@
 }
 
 @media only screen and (max-width : 768px) {
+
+  .clock1 {
+    text-align: left;
+    left: 50px;
+    margin-top: 56px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock2 {
+    text-align: left;
+    left: 50px;
+    margin-top: 56px;
+    right: 16px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock3 {
+    text-align: left;
+    left: 50px;
+    margin-top: 56px;
+    font-weight: 700;
+    font-size: 18px;
+  }
 
   .intro-wrapper {
     padding: 48px 32px;
@@ -87,6 +133,31 @@
 
 @media only screen and (max-width : 576px) {
 
+  .clock1 {
+    text-align: left;
+    left: 16px;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock2 {
+    text-align: left;
+    left: 16px;
+    margin-top: 32px;
+    right: 16px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .clock3 {
+    text-align: left;
+    left: 16px;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
   .intro-wrapper,
   .project-section-wrapper,
   .about-me-section {
@@ -110,13 +181,9 @@
   .footer-description {
     margin-top: 16px;
     padding-bottom: 24px;
-    padding: 100px;
+    padding-top: 64px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .clock {
-    right: 16px;
   }
 
   h1.footer-header {
