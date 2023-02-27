@@ -17,10 +17,6 @@ body {
   position: relative;
 }
 
-.page {
-  display: none;
-}
-
 .loading-page {
   background: var(--color-bg);
   position: fixed;
@@ -2139,6 +2135,7 @@ a:focus {
     -ms-transform: translateY(0) translateZ(0);
     -o-transform: translateY(0) translateZ(0);
     transform: translateY(0) translateZ(0);
+    opacity: 100;
   }
 
   50% {
@@ -2155,6 +2152,7 @@ a:focus {
     -ms-transform: translateY(0) translateZ(0);
     -o-transform: translateY(0) translateZ(0);
     transform: translateY(0) translateZ(0);
+    opacity: 0;
   }
 }
 
