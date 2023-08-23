@@ -44,17 +44,19 @@
   <title>Alexander Afanasov - Portfolio</title>
 
   <!--  external style sheets  -->
+  <link rel="preload" href="assets/css/morphext/morphext.css" as="style">
+  <link href="assets/css/morphext/morphext.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="assets/css/morphext/morphext.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!--  external scripts  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="preload" as="script" href="assets/js/morphext/morphext.min.js">
+  <script src="assets/js/morphext/morphext.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.3/dist/lazyload.min.js"></script>
   <script src="assets/js/pace/pace.js"></script>
-  <script src="assets/js/morphext/morphext.min.js"></script>
   <script src="https://use.fontawesome.com/b3fda33184.js"></script>
   <!--<script src="assets/js/luxy/luxy.js" charset="utf-8"></script>-->
 
@@ -63,6 +65,7 @@
   <link href="assets/css/styles-responsive-index.css" rel="stylesheet">
 
   <!--  my scripts  -->
+  <link rel="preload" as="script" href="assets/js/main.js">
   <script src="assets/js/main.js"></script>
 
 </head>
@@ -108,21 +111,13 @@
 
           <div class="description-main">
 
-            <h1 class="index-hello">
+            <h1 class="index-hello animate__animated animate__bounce animate__delay-2s">
               <span id="js-rotating">Hello., Hola., Bonjour., Salve., Guten Tag., Shalom.</span>
             </h1>
 
             <h1 class="animate__animated animate__bounce index-heading">Formerly
               <a href="https://cpeople.ru" target="_blank" rel="noopener noreferrer"
                 class="underline-links index-link"><b>
-
-                  <!-- <span class="swirl">
-                    
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 68"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M105 10C28-9-29 40 34 56c62 16 91-29 66-29"></path><path d="M109 16C82-20-56 21 30 55s105-27 75-45"></path></g></svg>
-                    </span>
-
-                    </span> -->
-
                   <span class="glitch" data-text="CreativePeople.">CreativePeople.</span></b></a>
             </h1>
 
@@ -130,10 +125,9 @@
             <br>
             <p class="index-sub-description animate__animated animate__fadeIn">
               I am looking for new
-              opportunities. Find my work <a class="underline-links below-link"><strong>below.</strong></a>
+              opportunities. Find my work below.
               <br> See my
-              <a target="_blank" href="https://www.dropbox.com/s/p18r5vnqz9v6viz/Alexander_Afanasov_Resume.pdf?dl=0"
-                rel="noopener" class="underline-links"><strong>résumé</strong></a> and if you have a project in mind -
+              résumé and if you have a project in mind -
               let's chat.
             </p>
             <br>
@@ -141,12 +135,14 @@
             <div class="links-wrapper">
               <a href="https://dribbble.com/afanasov" target="_blank" rel="noopener"><i class="fa fa-dribbble fa-2x"
                   aria-hidden="true"></i></a>
-              <a href="https://linkedin.com/in/alexander-afanasov" target="_blank" rel="noopener"><i
-                  class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
               <a href="https://facebook.com/afanasov.alexander" target="_blank" rel="noopener"><i
                   class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              <a href="https://linkedin.com/in/alexander-afanasov" target="_blank" rel="noopener"><i
+                  class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
               <a href="https://instagram.com/juggernautknight/" target="_blank" rel="noopener"><i
                   class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+              <a href="https://open.spotify.com/user/afanasov.alexander?si=d1f56bf7cb89410e" target="_blank"
+                rel="noopener"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
@@ -177,6 +173,26 @@
               </div>
             </div>
           </div>
+
+          <!--<div data-aos="fade-right" onclick="transitionToPage('projects/cpeople')" class="row design-row"
+            id="design-project">
+            <div class="col-md-6 project-image-container" data-tilt>
+              <img class="img-fluid project-image" src="assets/img/freelance.png" alt="">
+            </div>
+
+            <div class="col-md-6">
+              <div class="project-information">
+                <h1 class="design-title">Freelance</h1>
+                <h1 class="design-description">Freelance Projects.</h1>-->
+          <!--<div class="tag_case_study">web design</div>
+                <div class="tag_case_study">design</div>
+                <div class="tag_case_study">user research</div>-->
+          <!--<a onclick="transitionToPage('projects/cpeople')"><button type="button"
+                    class="design-read-study-btn">View
+                    Case Study</button></a>
+              </div>
+            </div>
+          </div>-->
 
           <div data-aos="fade-right" onclick="transitionToPage('projects/other')" class="row design-row"
             id="design-project-2">
@@ -231,12 +247,14 @@
 
       <h3 class="footer-description">© 2023 Alexander Afanasov. All Rights Reserved.</h3>
 
-      <div class="clock1"><span class="city">Moscow </span><span id="hours"></span><span id="colon">:</span><span
-          id="minutes"></span></div>
-      <div class="clock2"><span class="city">New York </span><span id="hours2"></span><span id="colon2">:</span><span
-          id="minutes2"></span></div>
-      <div class="clock3"><span class="city">London </span><span id="hours3"></span><span id="colon3">:</span><span
-          id="minutes3"></span></div>
+      <div class="clock">
+        <div class="clock1"><span class="city">Moscow </span><span id="hours"></span><span id="colon">:</span><span
+            id="minutes"></span></div>
+        <div class="clock2"><span class="city">New York </span><span id="hours2"></span><span id="colon2">:</span><span
+            id="minutes2"></span></div>
+        <div class="clock3"><span class="city">London </span><span id="hours3"></span><span id="colon3">:</span><span
+            id="minutes3"></span></div>
+      </div>
 
     </div>
 
@@ -249,13 +267,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-  <script>
-    AOS.init({
-      easing: 'ease-out-back',
-      duration: 1000
-    });
-  </script>
 
 </body>
 

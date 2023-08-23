@@ -278,34 +278,39 @@ $(document).ready(function () {
 $(document).ready(function () {
     //Hover
     $(".fa-dribbble").hover(function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
     }, function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
     });
     $(".fa-instagram").hover(function () {
-        $(".fa-dribbble, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
+        $(".fa-dribbble, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
     }, function () {
-        $(".fa-dribbble, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
+        $(".fa-dribbble, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
+    });
+    $(".fa-spotify").hover(function () {
+        $(".fa-dribbble, .fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
+    }, function () {
+        $(".fa-dribbble, .fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
     });
     $(".fa-linkedin").hover(function () {
-        $(" .fa-dribbble, .fa-instagram, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
+        $(" .fa-dribbble, .fa-instagram, fa-spotify, .fa-facebook, .fa-twitter, .fa-medium").addClass("opacity");
     }, function () {
-        $(" .fa-dribbble, .fa-instagram, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
+        $(" .fa-dribbble, .fa-instagram, fa-spotify, .fa-facebook, .fa-twitter, .fa-medium").removeClass("opacity");
     });
     $(".fa-facebook").hover(function () {
-        $(".fa-instagram, .fa-linkedin, .fa-dribbble, .fa-twitter, .fa-medium").addClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-dribbble, .fa-twitter, .fa-medium").addClass("opacity");
     }, function () {
-        $(".fa-instagram, .fa-linkedin, .fa-dribbble, .fa-twitter, .fa-medium").removeClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-dribbble, .fa-twitter, .fa-medium").removeClass("opacity");
     });
     $(".fa-twitter").hover(function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-dribbble, .fa-medium").addClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-dribbble, .fa-medium").addClass("opacity");
     }, function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-dribbble, .fa-medium").removeClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-dribbble, .fa-medium").removeClass("opacity");
     });
     $(".fa-medium").hover(function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-dribbble").addClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-dribbble").addClass("opacity");
     }, function () {
-        $(".fa-instagram, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-dribbble").removeClass("opacity");
+        $(".fa-instagram, fa-spotify, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-dribbble").removeClass("opacity");
     });
 });
 

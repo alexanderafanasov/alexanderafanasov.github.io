@@ -886,11 +886,11 @@ h1.abs {
 .logo a {
   letter-spacing: 0px;
   text-decoration: none;
-  color: --color-primary;
+  color:var(--color-primary);
 }
 
 .logo:hover {
-  color: --color-primary !important;
+  color: var(--color-primary) !important;
 }
 
 .nav-bar {
@@ -1734,7 +1734,7 @@ h1.bold {
 .index-sub-description {
   font-size: 16px;
   font-family: 'IBM Plex Mono', sans-serif;
-  color: #666666;
+  color: #7E7E7E;
   padding-bottom: 20px;
 }
 
@@ -1880,6 +1880,7 @@ h1.bold {
   font-family: 'IBM Plex Mono', sans-serif;
   color: #666666;
 }
+
 
 .clock-dots {
   animation: pulse-btp-btn 1s infinite;
