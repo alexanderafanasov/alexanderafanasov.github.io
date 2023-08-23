@@ -2069,6 +2069,12 @@ a:focus {
   margin-right: 16px;
 }
 
+.fa-spotify {
+  color: var(--color-primary);
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
 .fa-instagram {
   color: var(--color-primary);
   margin-top: 16px;
